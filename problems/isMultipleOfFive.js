@@ -13,8 +13,16 @@
 * returns: false (because the string "ten" is not a number)
 */
 
-function isMultipleOfFive() {
-
+function isMultipleOfFive(n) {
+    if(n % 5 === 0){
+        return n % 5 === 0
+    }else{
+        return n % 5 === 0
+    }
 }
+
+//tests:
+// console.log(isMultipleOfFive(25))
+// console.log(isMultipleOfFive(24))
 
 module.exports = isMultipleOfFive

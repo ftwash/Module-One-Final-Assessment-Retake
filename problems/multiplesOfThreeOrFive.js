@@ -24,7 +24,10 @@
 * Notice that 15 is a multiple of 3 and 5 BUT it is only added ONCE.
 */
 
-function multiplesOfThreeOrFive() {
+function multiplesOfThreeOrFive(n) {
+    if(n % 3 === 0 && n % 5 === 0){
+        
+    }
 
 }
 

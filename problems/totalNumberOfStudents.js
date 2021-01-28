@@ -11,8 +11,26 @@
 * returns: 167
 */
 
-function totalNumberOfStudents() {
+// function totalNumberOfStudents(arr) {
+//     let numOfStudents = []
+//     numOfStudents.push(arr.studentCount)
 
-}
+//     let sum = numOfStudents.reduce((acc, el) => {
+//         return acc + el
+//     })
+//     return sum
+// }
+// console.log(sum)
 
 module.exports = totalNumberOfStudents
+
+
+
+// { subject: "math", studentCount: 30 }
+
+// let arr = [1, 2, 3, 4];
+// let sum = arr.reduce((acc, el) => {
+//   return acc + el;
+// });
+
+// console.log(sum) // => 10

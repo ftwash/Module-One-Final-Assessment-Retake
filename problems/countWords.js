@@ -14,7 +14,11 @@
 * returns: {}
 */
 
-function countWords() {
+function countWords(arr) {
+
+    let arr = {
+        
+    }
   
 }
 

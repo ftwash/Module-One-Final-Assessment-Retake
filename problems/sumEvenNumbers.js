@@ -9,8 +9,32 @@
 * ex: sumEvenNumbers([4, 3, 10])
 * returns: 14
 */
-function sumEvenNumbers() {
+function sumEvenNumbers(arr) {
+    let sum = 0
+        for(i = 0; i < arr.length; i++){
+            if(arr[i] % 2 === 0){
+        sum += arr[i]
+            }
+    }
+    return sum
 
 }
 
+console.log(sumEvenNumbers([1, 2, 3, 4]))
+
 module.exports = sumEvenNumbers
+
+
+// if(typeof arr === Array){
+//     let sum = arr.reduce((acc, el) => {
+//     return acc + el 
+//     })
+// }
+
+
+// let arr = [1, 2, 3, 4];
+// let sum = arr.reduce((acc, el) => {
+//   return acc + el;
+// });
+
+// console.log(sum) 
